@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>ZENIX Admin</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <header class="admin-header">
+      <h1>ZENIX Admin Panel</h1>
+      <div class="admin-header__actions">
+        <button id="logout-admin" type="button">Çıkış</button>
+      </div>
+    </header>
+
+    <section class="admin-login" id="admin-login">
+      <div class="admin-login__card">
+        <h2>Admin Girişi</h2>
+        <p>Şifre ile panele giriş yapın.</p>
+        <form id="admin-login-form" class="admin-form">
+          <label for="admin-password">Şifre</label>
+          <input id="admin-password" type="password" required autocomplete="current-password" />
+          <button type="submit">Giriş Yap</button>
+          <p id="admin-login-message" class="admin-message"></p>
+        </form>
+      </div>
+    </section>
+
+    <main class="admin-layout is-hidden" id="admin-layout">
+      <section class="admin-card">
+        <h2>Site Ayarları</h2>
+        <form id="settings-form" class="admin-form">
+          <div class="admin-form__group">
+            <h3>Güven Bölümü</h3>
+            <label for="confidence-title">Confidence Başlık</label>
+            <input id="confidence-title" name="confidence_title" type="text" />
+
+            <label for="confidence-description">Confidence Açıklama</label>
+            <textarea id="confidence-description" name="confidence_description"></textarea>
+
+            <label for="confidence-button-text">Buton Metni</label>
+            <input id="confidence-button-text" name="confidence_button_text" type="text" />
+          </div>
+
+          <div class="admin-form__group">
+            <h3>İletişim</h3>
+            <label for="contact-email">E-posta</label>
+            <input id="contact-email" name="contact_email" type="email" />
+
+            <label for="contact-phone">Telefon</label>
+            <input id="contact-phone" name="contact_phone" type="text" />
+
+            <label for="contact-whatsapp">WhatsApp</label>
+            <input id="contact-whatsapp" name="contact_whatsapp" type="text" />
+          </div>
+
+          <div class="admin-form__group">
+            <h3>Şirket Bilgileri</h3>
+            <label for="company-legal-name">Resmî Ticaret Unvanı</label>
+            <input id="company-legal-name" name="company_legal_name" type="text" />
+
+            <label for="company-type">İşletme Türü</label>
+            <input id="company-type" name="company_type" type="text" />
+
+            <label for="company-tax-or-mersis">MERSİS / Vergi Kimlik No</label>
+            <input id="company-tax-or-mersis" name="company_tax_or_mersis" type="text" />
+
+            <label for="company-kep-address">KEP Adresi</label>
+            <input id="company-kep-address" name="company_kep_address" type="text" />
+
+            <label for="company-address">Merkez Adresi</label>
+            <textarea id="company-address" name="company_address"></textarea>
+
+            <label for="company-city">Şehir / Kısa Adres</label>
+            <input id="company-city" name="company_city" type="text" />
+          </div>
+
+          <div class="admin-form__group">
+            <h3>Sosyal Linkler</h3>
+            <label for="social-instagram">Instagram URL</label>
+            <input id="social-instagram" name="social_instagram" type="url" />
+
+            <label for="social-linkedin">LinkedIn URL</label>
+            <input id="social-linkedin" name="social_linkedin" type="url" />
+
+            <label for="social-x">X / Twitter URL</label>
+            <input id="social-x" name="social_x" type="url" />
+
+            <label for="social-youtube">YouTube URL</label>
+            <input id="social-youtube" name="social_youtube" type="url" />
+
+            <label for="social-tiktok">TikTok URL</label>
+            <input id="social-tiktok" name="social_tiktok" type="url" />
+          </div>
+
+          <button type="submit">Değişiklikleri Kaydet</button>
+          <p id="settings-message" class="admin-message"></p>
+        </form>
+      </section>
+
+      <section class="admin-card">
+        <div class="admin-card__top">
+          <h2>Sorular</h2>
+          <button id="refresh-questions" type="button">Yenile</button>
+        </div>
+        <div id="questions-list" class="questions-list"></div>
+      </section>
+    </main>
+
+    <script src="admin.js" defer></script>
+  </body>
+</html>
+

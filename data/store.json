@@ -1,0 +1,257 @@
+{
+  "settings": {
+    "confidence_title": "Hâlâ Emin Değil Misiniz?",
+    "confidence_description": "Bize doğrudan yazın, sorularınızı net şekilde yanıtlayalım.",
+    "confidence_button_text": "Soru Sorun",
+    "contact_email": "zenix@zenixparts.com",
+    "contact_phone": "+90 533 277 62 06",
+    "contact_whatsapp": "+90 533 277 62 06",
+    "company_legal_name": "",
+    "company_type": "",
+    "company_tax_or_mersis": "",
+    "company_kep_address": "",
+    "company_address": "",
+    "company_city": "Ankara, Türkiye",
+    "social_instagram": "",
+    "social_linkedin": "",
+    "social_x": "",
+    "social_youtube": "",
+    "social_tiktok": ""
+  },
+  "questions": [
+    {
+      "id": "seed-qa-1",
+      "fullName": "ZENIX Bilgi",
+      "question": "Neden Zenix’e güvenmeliyim?",
+      "answer": "Çünkü Zenix, Türkiye Cumhuriyeti devleti tarafından kayıt altına alınmış, resmi yükümlülüklerini yerine getiren ve vergisini ödeyen bir şirkettir. Tüm süreçlerimiz kayıtlı, şeffaf ve kurumsal yapı içinde ilerler. Şirket bilgilerimiz, resmi numaralarımız ve kurumsal iletişim bilgilerimiz sitemizde açık şekilde yer alır. Ödeme tamamlandıktan sonra fatura kesilir ve tarafınıza iletilir. Güvenilirliğimiz yalnızca sözle değil, resmi kayıtlar ve belgeli işlem süreciyle de desteklenmektedir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:00:00.000Z",
+      "answeredAt": "2026-04-10T08:01:00.000Z"
+    },
+    {
+      "id": "seed-qa-2",
+      "fullName": "ZENIX Bilgi",
+      "question": "Fiyatlandırmanız nasıl çalışıyor?",
+      "answer": "Zenix, onaylanmış tedarikçilerle çalıştığı için standart piyasa fiyatlarından farklı olarak bize özel fiyatlandırmalar alabilmektedir. Bu sayede müşteriye yalnızca ürün sunmuyor, aynı zamanda güçlü tedarik ağı avantajını da yansıtıyoruz. Sunulan teklif, ürün bedeli ve %15 hizmet bedelimizle birlikte net şekilde paylaşılır. Ödeme tamamlandıktan sonra işleminize ait fatura düzenlenir ve tarafınıza iletilir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:02:00.000Z",
+      "answeredAt": "2026-04-10T08:03:00.000Z"
+    },
+    {
+      "id": "seed-qa-3",
+      "fullName": "ZENIX Bilgi",
+      "question": "Ödeme yaptıktan sonra fatura alıyor muyum?",
+      "answer": "Evet. Ödeme tamamlandıktan sonra işleminize ait fatura düzenlenir ve tarafınıza iletilir. Böylece süreç yalnızca sözlü değil, resmi ve belgeli şekilde ilerler.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:04:00.000Z",
+      "answeredAt": "2026-04-10T08:05:00.000Z"
+    },
+    {
+      "id": "seed-qa-4",
+      "fullName": "ZENIX Bilgi",
+      "question": "Zenix gerçekten resmi bir şirket mi?",
+      "answer": "Evet. Zenix, Türkiye Cumhuriyeti mevzuatına uygun şekilde faaliyet gösteren resmi bir şirkettir. Ne yaptığımız, hangi hizmeti sunduğumuz ve kurumsal yapımız açık şekilde belirlenmiştir. Vergi numaramız, MERSİS numaramız ve diğer resmi şirket bilgilerimiz web sitemizde yer almaktadır. Bu bilgiler xxx üzerinden doğrulanabilir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:06:00.000Z",
+      "answeredAt": "2026-04-10T08:07:00.000Z"
+    },
+    {
+      "id": "seed-qa-5",
+      "fullName": "ZENIX Bilgi",
+      "question": "Neden Zenix’e güvenmeliyim?",
+      "answer": "Çünkü Zenix, Türkiye Cumhuriyeti devleti tarafından kayıt altına alınmış, resmi yükümlülüklerini yerine getiren ve vergisini ödeyen bir şirkettir. Tüm süreçlerimiz kayıtlı, şeffaf ve kurumsal yapı içinde ilerler. Şirket bilgilerimiz, resmi numaralarımız ve kurumsal iletişim bilgilerimiz sitemizde açık şekilde yer alır. Ödeme tamamlandıktan sonra fatura kesilir ve tarafınıza iletilir. Güvenilirliğimiz yalnızca sözle değil, resmi kayıtlar ve belgeli işlem süreciyle de desteklenmektedir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:08:00.000Z",
+      "answeredAt": "2026-04-10T08:09:00.000Z"
+    },
+    {
+      "id": "seed-qa-6",
+      "fullName": "ZENIX Bilgi",
+      "question": "Zenix tam olarak ne yapar?",
+      "answer": "Zenix, müşterinin ihtiyaç duyduğu yedek parçayı güvenilir ve onaylanmış tedarikçi ağı üzerinden araştırır, fiyat ve kalite karşılaştırması yapar, ardından uygun seçeneği müşteriye sunar. Amacımız insanların ustalara gereğinden fazla para ödemesini veya kaynağı belirsiz, güven vermeyen parçaları almak zorunda kalmasını önlemektir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:10:00.000Z",
+      "answeredAt": "2026-04-10T08:11:00.000Z"
+    },
+    {
+      "id": "seed-qa-7",
+      "fullName": "ZENIX Bilgi",
+      "question": "Zenix parça satıcısı mı, yoksa farklı bir hizmet mi sunuyor?",
+      "answer": "Zenix, yalnızca ürün gösteren sıradan bir satıcı değildir. Biz bu süreçte araştırma, doğrulama, karşılaştırma, tedarik koordinasyonu ve müşteri takibini yöneten bir hizmet modeli sunuyoruz. Yani müşteriye sadece bir ürün değil, doğru parçaya güvenilir şekilde ulaşma hizmeti veriyoruz.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:12:00.000Z",
+      "answeredAt": "2026-04-10T08:13:00.000Z"
+    },
+    {
+      "id": "seed-qa-8",
+      "fullName": "ZENIX Bilgi",
+      "question": "Parçaları nereden buluyorsunuz?",
+      "answer": "Parçalar, onaylanmış ve güvenilirliği kontrol edilmiş tedarikçi ağımız üzerinden temin edilir. Rastgele satıcılardan ya da kaynağı belirsiz yerlerden ürün yönlendirmesi yapılmaz. Her tedarik süreci kalite, güven ve uygunluk kriterlerine göre değerlendirilir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:14:00.000Z",
+      "answeredAt": "2026-04-10T08:15:00.000Z"
+    },
+    {
+      "id": "seed-qa-9",
+      "fullName": "ZENIX Bilgi",
+      "question": "Fiyatlandırmanız nasıl çalışıyor?",
+      "answer": "Zenix, onaylanmış tedarikçilerle çalıştığı için standart piyasa fiyatlarından farklı olarak bize özel fiyatlandırmalar alabilmektedir. Bu sayede müşteriye yalnızca ürün sunmuyor, aynı zamanda güçlü tedarik ağı avantajını da yansıtıyoruz. Sunulan teklif, ürün bedeli ve %15 hizmet bedelimizle birlikte net şekilde paylaşılır. Ödeme tamamlandıktan sonra işleminize ait fatura düzenlenir ve tarafınıza iletilir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:16:00.000Z",
+      "answeredAt": "2026-04-10T08:17:00.000Z"
+    },
+    {
+      "id": "seed-qa-10",
+      "fullName": "ZENIX Bilgi",
+      "question": "Neden %15 hizmet bedeli alıyorsunuz?",
+      "answer": "Çünkü Zenix yalnızca bir ürün iletmez. Müşteri adına parça araştırması yapar, güvenilir tedarikçileri karşılaştırır, kalite ve uygunluk kontrolü sağlar, süreci yönetir ve sipariş sonrasına kadar destek verir. %15 hizmet bedeli, bu profesyonel araştırma, doğrulama ve süreç yönetimi hizmetinin karşılığıdır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:18:00.000Z",
+      "answeredAt": "2026-04-10T08:19:00.000Z"
+    },
+    {
+      "id": "seed-qa-11",
+      "fullName": "ZENIX Bilgi",
+      "question": "Ödeme yaptıktan sonra fatura alıyor muyum?",
+      "answer": "Evet. Ödeme tamamlandıktan sonra işleminize ait fatura düzenlenir ve tarafınıza iletilir. Böylece süreç yalnızca sözlü değil, resmi ve belgeli şekilde ilerler.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:20:00.000Z",
+      "answeredAt": "2026-04-10T08:21:00.000Z"
+    },
+    {
+      "id": "seed-qa-12",
+      "fullName": "ZENIX Bilgi",
+      "question": "Neden doğrudan web sitesinden, parçacıdan veya ustadan almak yerine Zenix’i tercih etmeliyim?",
+      "answer": "Çünkü doğrudan alımlarda müşteri çoğu zaman ya yüksek fiyatla karşılaşır ya da aldığı parçanın gerçekten doğru ve güvenilir olup olmadığından emin olamaz. Zenix’te ise süreç kontrol altında yürütülür. Onaylanmış tedarikçilerden özel fiyatlandırmalar alınır, araç bilgileri dikkatle kontrol edilir, ürün doğrulanır ve müşteri her aşamada bilgilendirilir. Böylece hem fazla ödeme hem de yanlış parça alma riski ciddi şekilde azalır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:22:00.000Z",
+      "answeredAt": "2026-04-10T08:23:00.000Z"
+    },
+    {
+      "id": "seed-qa-13",
+      "fullName": "ZENIX Bilgi",
+      "question": "Zenix’te yanlış parça riski neden çok düşüktür?",
+      "answer": "Zenix’te yanlış parça oranı sıfıra yakındır. Çünkü sipariş öncesinde aracınızın şasi numarası, tam modeli ve gerekli teknik bilgileri detaylı şekilde kontrol edilir. Parça bu doğrulamalardan sonra size yönlendirilir. Süreç yalnızca “parça bulundu” diyerek ilerlemez; uygunluk teyidi esas alınır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:24:00.000Z",
+      "answeredAt": "2026-04-10T08:25:00.000Z"
+    },
+    {
+      "id": "seed-qa-14",
+      "fullName": "ZENIX Bilgi",
+      "question": "Kargodan önce parça bana gösteriliyor mu?",
+      "answer": "Evet. Parça kargolanmadan önce usta veya tedarikçi tarafından ürün fotoğrafı iletilir. Bu sayede müşteri, ürün gönderilmeden önce ek bir güven adımıyla bilgilendirilmiş olur. Fotoğraf paylaşımının ardından kargo süreci başlatılır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:26:00.000Z",
+      "answeredAt": "2026-04-10T08:27:00.000Z"
+    },
+    {
+      "id": "seed-qa-15",
+      "fullName": "ZENIX Bilgi",
+      "question": "Kargo süreci nasıl ilerliyor?",
+      "answer": "Parça kargoya verildikten sonra kargo takip numarası sizinle paylaşılır. Böylece süreci anlık olarak takip edebilirsiniz. Zenix, ürün gönderildikten sonra da süreci kapatmaz; teslimat sonrasını da takip eder.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:28:00.000Z",
+      "answeredAt": "2026-04-10T08:29:00.000Z"
+    },
+    {
+      "id": "seed-qa-16",
+      "fullName": "ZENIX Bilgi",
+      "question": "Ürün elime ulaştıktan sonra sizinle iletişim devam ediyor mu?",
+      "answer": "Evet. Ürün size ulaştıktan sonra tekrar iletişime geçilir. Parçadan memnun kalıp kalmadığınız, aracınızla tam uyumlu olup olmadığı ve süreçte bir sorun yaşanıp yaşanmadığı kontrol edilir. Bizim için süreç, ürün kargoya verildiğinde değil, müşteri memnuniyeti sağlandığında tamamlanır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:30:00.000Z",
+      "answeredAt": "2026-04-10T08:31:00.000Z"
+    },
+    {
+      "id": "seed-qa-17",
+      "fullName": "ZENIX Bilgi",
+      "question": "Orijinal parça mı gönderiyorsunuz?",
+      "answer": "Müşterinin talebine göre orijinal, muadil veya belirli kalite seviyesindeki ürün seçenekleri sunulur. Hangi ürün tipinin teklif edildiği süreç başında açık şekilde belirtilir. Böylece müşteri ne alacağını net olarak bilir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:32:00.000Z",
+      "answeredAt": "2026-04-10T08:33:00.000Z"
+    },
+    {
+      "id": "seed-qa-18",
+      "fullName": "ZENIX Bilgi",
+      "question": "En ucuz parçayı mı buluyorsunuz?",
+      "answer": "Hayır. Her zaman en ucuz ürünü değil, en doğru fiyat-performans ürününü bulmaya odaklanıyoruz. Çünkü en ucuz ürün her zaman en güvenilir ürün değildir. Zenix, fiyat avantajını kalite ve uygunlukla birlikte değerlendirir.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:34:00.000Z",
+      "answeredAt": "2026-04-10T08:35:00.000Z"
+    },
+    {
+      "id": "seed-qa-19",
+      "fullName": "ZENIX Bilgi",
+      "question": "Parçanın aracıma uyumlu olduğunu nasıl anlıyorsunuz?",
+      "answer": "Parça araştırma sürecinde aracınızın şasi numarası, modeli ve gerekli teknik bilgileri dikkatle incelenir. Bu bilgiler doğrultusunda uygunluk teyidi yapıldıktan sonra ürün yönlendirilir. Amaç, müşteriye rastgele değil, aracıyla uyumlu parçayı sunmaktır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:36:00.000Z",
+      "answeredAt": "2026-04-10T08:37:00.000Z"
+    },
+    {
+      "id": "seed-qa-20",
+      "fullName": "ZENIX Bilgi",
+      "question": "Yanlış parça, uyumsuzluk veya sorun olursa ne olur?",
+      "answer": "Zenix olarak bu süreçte müşterimizin yanındayız. Parça uyumu, parça sorunu veya herhangi bir problem durumunda iletişim kanallarımız mesai saatleri içinde açıktır. Süreç bizim tarafımızdan takip edilir ve çözüm için hızlı şekilde destek sağlanır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:38:00.000Z",
+      "answeredAt": "2026-04-10T08:39:00.000Z"
+    },
+    {
+      "id": "seed-qa-21",
+      "fullName": "ZENIX Bilgi",
+      "question": "Sipariş sonrası ulaşabileceğim biri var mı?",
+      "answer": "Evet. WhatsApp, sosyal medya hesaplarımız ve telefon numaramız üzerinden mesai saatleri içinde bizimle iletişime geçebilirsiniz. Müşterilerimize en kısa sürede dönüş sağlamaya önem veriyoruz. Zenix için satış sonrası iletişim, hizmetin doğal bir parçasıdır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:40:00.000Z",
+      "answeredAt": "2026-04-10T08:41:00.000Z"
+    },
+    {
+      "id": "seed-qa-22",
+      "fullName": "ZENIX Bilgi",
+      "question": "Zenix’in farkı tam olarak nedir?",
+      "answer": "Zenix’in farkı yalnızca parça bulmak değildir. Biz bu süreçte her zaman müşterimizin yanında oluruz. Doğru parçayı araştırır, uygunluğu kontrol eder, tedarik sürecini yönetir, kargo öncesi bilgilendirme yapar, kargo takibini paylaşır ve teslimat sonrası memnuniyet kontrolü sağlarız. Ayrıca müşterilerimiz bizimle her zaman konuşarak veya mesajlaşarak iletişime geçebilir. Yani Zenix, işlem odaklı değil, destek odaklı çalışan bir yapıdır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:42:00.000Z",
+      "answeredAt": "2026-04-10T08:43:00.000Z"
+    },
+    {
+      "id": "seed-qa-23",
+      "fullName": "ZENIX Bilgi",
+      "question": "Tedarikçilerin iletişim bilgilerini neden paylaşmıyorsunuz?",
+      "answer": "Tedarikçilerimizin iletişim bilgileri, aramızdaki ticari anlaşmalar gereği gizli tutulmaktadır. Bu nedenle müşterilerimiz tüm tedarik ve iletişim süreçlerini yalnızca Zenix kanalı üzerinden yürütür. Bu yapı hem sürecin düzenli ilerlemesini sağlar hem de güvenli ve kontrollü tedarik yönetimi sunar.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:44:00.000Z",
+      "answeredAt": "2026-04-10T08:45:00.000Z"
+    },
+    {
+      "id": "seed-qa-24",
+      "fullName": "ZENIX Bilgi",
+      "question": "Süreç boyunca iletişim açık mı?",
+      "answer": "Evet. Zenix olarak müşterimizin bu süreçte yalnız kalmamasına önem veriyoruz. Bilgi almak, durum sormak, parça uyumunu danışmak veya bir sorun bildirmek için bizimle her zaman mesai saatleri içerisinde iletişime geçebilirsiniz. İletişim kanallarımız aktif ve açıktır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:46:00.000Z",
+      "answeredAt": "2026-04-10T08:47:00.000Z"
+    },
+    {
+      "id": "seed-qa-25",
+      "fullName": "ZENIX Bilgi",
+      "question": "Sosyal medya hesabınızın ve web sitenizin olması güven için yeterli mi?",
+      "answer": "Tek başına yeterli değildir. Bu nedenle Zenix güveni yalnızca görünürlükle değil; resmi şirket yapısı, şeffaf bilgi paylaşımı, doğrulanabilir kurumsal veriler, güvenilir tedarikçi ağı ve kayıtlı süreç yönetimiyle destekler.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:48:00.000Z",
+      "answeredAt": "2026-04-10T08:49:00.000Z"
+    },
+    {
+      "id": "seed-qa-26",
+      "fullName": "ZENIX Bilgi",
+      "question": "Şirket bilgilerinizi açıkça paylaşıyor musunuz?",
+      "answer": "Evet. Vergi numaramız, MERSİS numaramız, şirket bilgilerimiz ve iletişim detaylarımız web sitemizde açık şekilde yer almaktadır. İlgili alanlar şu an için xxx olarak düzenlenmiştir ve kesin bilgiler eklendiğinde bu kısımlar tamamlanacaktır.",
+      "status": "answered",
+      "createdAt": "2026-04-10T08:50:00.000Z",
+      "answeredAt": "2026-04-10T08:51:00.000Z"
+    }
+  ]
+}

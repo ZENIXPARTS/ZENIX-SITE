@@ -1,0 +1,244 @@
+:root {
+  --bg: #071427;
+  --panel: #0d2038;
+  --panel-border: rgba(180, 200, 225, 0.2);
+  --text: #edf3fb;
+  --muted: #afc1da;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #071427, #050f1d);
+  color: var(--text);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid rgba(190, 208, 230, 0.16);
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.admin-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.admin-header__actions input,
+.admin-header__actions button {
+  min-height: 2.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  background: #0b1c32;
+  color: var(--text);
+  padding: 0 0.7rem;
+}
+
+.admin-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.admin-layout.is-hidden {
+  display: none;
+}
+
+.admin-login {
+  min-height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.admin-login__card {
+  width: min(100%, 420px);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  background: rgba(13, 32, 56, 0.76);
+  padding: 1.2rem;
+}
+
+.admin-login__card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.admin-login__card p {
+  margin: 0.4rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.admin-card {
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  background: rgba(13, 32, 56, 0.7);
+  padding: 1rem;
+}
+
+.admin-card h2 {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+}
+
+.admin-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.admin-card__top button {
+  min-height: 2.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  background: #102848;
+  color: var(--text);
+  padding: 0 0.7rem;
+}
+
+.admin-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-form__group {
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.9rem;
+  border: 1px solid rgba(190, 208, 230, 0.12);
+  border-radius: 10px;
+  background: rgba(7, 20, 39, 0.38);
+}
+
+.admin-form__group h3 {
+  margin: 0 0 0.2rem;
+  font-size: 0.92rem;
+}
+
+.admin-form label {
+  font-size: 0.83rem;
+  color: var(--muted);
+}
+
+.admin-form input,
+.admin-form textarea,
+.admin-form button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  background: #0b1c32;
+  color: var(--text);
+  font: inherit;
+  padding: 0.55rem 0.7rem;
+}
+
+.admin-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.admin-form button {
+  margin-top: 0.5rem;
+  min-height: 2.3rem;
+  background: #133056;
+  cursor: pointer;
+}
+
+.admin-message {
+  margin: 0.3rem 0 0;
+  color: #9dc0ec;
+  font-size: 0.8rem;
+}
+
+.questions-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.question-item {
+  border: 1px solid rgba(190, 208, 230, 0.12);
+  border-radius: 10px;
+  padding: 0.75rem;
+  background: rgba(7, 20, 39, 0.56);
+}
+
+.question-item h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.question-item p {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.question-item textarea {
+  width: 100%;
+  min-height: 90px;
+  margin-top: 0.4rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background: #0b1c32;
+  color: var(--text);
+  font: inherit;
+  padding: 0.55rem;
+  resize: vertical;
+}
+
+.question-item button {
+  margin-top: 0.45rem;
+  min-height: 2.1rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background: #143258;
+  color: var(--text);
+  padding: 0 0.75rem;
+  cursor: pointer;
+}
+
+.question-item__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.question-item__actions .question-item__button,
+.question-item__actions button {
+  margin-top: 0.45rem;
+}
+
+.question-item__button--danger {
+  background: #4a1e2e;
+}
+
+@media (max-width: 900px) {
+  .admin-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,959 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZENIX | Doğru Parça, Şeffaf Fiyat</title>
+    <meta
+      name="description"
+      content="Şasi numaranızı girin, ihtiyacınız olan parçayı bize bildirin. Tedarikçi ağımızdan en uygun fiyatı bulup WhatsApp üzerinden size dönelim."
+    />
+    <link rel="icon" type="image/png" href="assets/zenix-favicon.png" />
+    <link rel="apple-touch-icon" href="assets/zenix-favicon.png" />
+    <meta name="theme-color" content="#0b1f33" />
+    <link rel="preload" href="assets/zenix-hero.png" as="image" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zenix.com.tr/" />
+    <meta property="og:title" content="ZENIX | Doğru Parça, Şeffaf Fiyat" />
+    <meta property="og:description" content="Türkiye'nin ilk otomotiv parça broker platformu. Şasi numaranızı girin, en uygun fiyatı bulalım." />
+    <meta property="og:image" content="https://zenix.com.tr/assets/zenix-hero.png" />
+    <meta property="og:locale" content="tr_TR" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZENIX | Doğru Parça, Şeffaf Fiyat" />
+    <meta name="twitter:description" content="Türkiye'nin ilk otomotiv parça broker platformu." />
+    <meta name="twitter:image" content="https://zenix.com.tr/assets/zenix-hero.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar" aria-label="Ana gezinme">
+          <a class="brand" href="#hero" aria-label="Ana sayfa">
+            <svg
+              class="brand__logo"
+              viewBox="0 0 330 64"
+              aria-hidden="true"
+              role="img"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="7.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M10 16 H66 L10 48 H66" />
+                <path d="M92 16 H138 M92 32 H130 M92 48 H138" />
+                <path d="M162 48 V22 Q162 16 168 16 H196 Q202 16 202 22 V48" />
+                <path d="M228 16 V48" />
+                <path d="M258 16 L281 32" />
+                <path d="M258 48 L281 32" />
+                <path d="M314 16 L291 32" />
+                <path d="M314 48 L291 32" />
+              </g>
+            </svg>
+          </a>
+
+          <button
+            class="navbar__toggle"
+            id="navbar-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navbar-menu"
+            aria-label="Menüyü aç"
+          >
+            <span class="navbar__toggle-line"></span>
+            <span class="navbar__toggle-line"></span>
+            <span class="navbar__toggle-line"></span>
+          </button>
+
+          <div class="navbar__menu" id="navbar-menu">
+            <div class="navbar__links">
+              <a href="#how-it-works">Nasıl Çalışır</a>
+              <a href="#about">Hakkımızda</a>
+              <a href="#contact">İletişim</a>
+            </div>
+          </div>
+
+          <div class="navbar__links navbar__links--desktop">
+            <a href="#how-it-works">Nasıl Çalışır</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#contact">İletişim</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="container hero__container">
+          <div class="hero__layout">
+            <div class="hero__content">
+              <a class="hero__badge" href="#contact">
+                <span class="hero__badge-text">Türkiye'nin İlk Otomotiv Parça Broker'ı</span>
+              </a>
+
+              <h1 class="hero__title" id="hero-title">
+                Doğru Parça,<br />
+                Şeffaf Fiyat.
+              </h1>
+
+              <p class="hero__description">
+                Şasi numaranızı girin, ihtiyacınız olan parçayı bize bildirin.
+                Güvenilir tedarikçi ağımızdan en uygun fiyat seçeneklerini bulalım
+                ve size WhatsApp üzerinden hızlı, net ve şeffaf şekilde dönüş
+                yapalım.
+              </p>
+
+              <div class="hero__actions">
+                <a class="button button--primary" href="#contact">
+                  <span>Parça Talebi Oluştur</span>
+                  <span class="button__arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero__media">
+              <img
+                class="hero__image"
+                src="assets/zenix-hero.png"
+                alt="ZENIX için patlatılmış otomobil parça görseli"
+                fetchpriority="high"
+                decoding="async"
+                loading="eager"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="value-section" id="about" aria-labelledby="value-title">
+        <div class="container value-section__container">
+          <div class="value-section__intro">
+            <h2 class="value-section__title" id="value-title">
+              Yedek parçada<br />
+              güvenilir aracınız.
+            </h2>
+            <p class="value-section__description">
+              ZENIX, sizinle tedarikçiler arasında köprü kurar. Siz parça
+              ihtiyacınızı bildirin, biz en uygun fiyatı ve kaliteyi bulalım.
+            </p>
+          </div>
+
+          <div class="value-grid">
+            <article class="value-item">
+              <h3>Kişiye Özel Hizmet</h3>
+              <p>
+                Her talep birebir değerlendirilir. Aracınıza özel doğru parçayı
+                sizin için araştırıyoruz.
+              </p>
+            </article>
+
+            <article class="value-item">
+              <h3>Şeffaf Fiyat</h3>
+              <p>
+                Tedarikçiden aldığımız fiyatı açıkça paylaşıyoruz. Gizli komisyon
+                veya sürpriz maliyet yok.
+              </p>
+            </article>
+
+            <article class="value-item">
+              <h3>Geniş Tedarikçi Ağı</h3>
+              <p>
+                Türkiye genelindeki onaylı tedarikçilerle çalışarak en uygun
+                fiyat ve kaliteyi garanti ediyoruz.
+              </p>
+            </article>
+
+            <article class="value-item">
+              <h3>Hızlı Geri Dönüş</h3>
+              <p>
+                Talebinizi aldıktan sonra en kısa sürede fiyat bilgisi ve teslimat
+                detaylarıyla size dönüyoruz.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section" id="how-it-works" aria-labelledby="process-title">
+        <div class="container process-section__container">
+          <div class="process-section__header">
+            <p class="process-section__eyebrow">Nasıl Çalışır</p>
+            <h2 class="process-section__title" id="process-title">Üç adımda doğru parça.</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-card">
+              <h3>VIN numarası veya araç bilgilerinizi paylaşın</h3>
+              <p>
+                Şasi numaranızı ya da araç bilgilerinizi bizimle paylaşın.
+                İhtiyacınız olan parçayı WhatsApp üzerinden hızlıca bize iletin.
+              </p>
+            </article>
+
+            <article class="process-card">
+              <h3>Fiyat araştırmasını yapalım</h3>
+              <p>
+                Güvenilir tedarikçi ağımızdan sizin için en uygun fiyat ve kalite
+                seçeneklerini araştırıp karşılaştıralım.
+              </p>
+            </article>
+
+            <article class="process-card">
+              <h3>Size net teklif ile dönelim</h3>
+              <p>
+                Fiyat, marka ve teslimat detaylarını şeffaf şekilde sunalım.
+                Onayınızla birlikte parçanız hızlıca yola çıksın.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section" aria-label="ZENIX öne çıkan metrikler">
+        <div class="container stats-section__container">
+          <article class="stat-card">
+            <strong class="stat-card__value">7</strong>
+            <span class="stat-card__label">Bölge Tedarik Ağı</span>
+          </article>
+
+          <article class="stat-card">
+            <strong class="stat-card__value">14</strong>
+            <span class="stat-card__label">Tedarikçi Partner</span>
+          </article>
+
+          <article class="stat-card">
+            <strong class="stat-card__value">81</strong>
+            <span class="stat-card__label">İl Kapsama Alanı</span>
+          </article>
+
+          <article class="stat-card">
+            <strong class="stat-card__value">%100</strong>
+            <span class="stat-card__label">Şeffaf Fiyatlandırma</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="request-section" id="contact" aria-labelledby="request-title">
+        <div class="container">
+          <div class="request-card">
+            <div class="request-card__content">
+              <p class="request-card__eyebrow">Onaylı Tedarikçi Ağı</p>
+              <h2 class="request-card__title" id="request-title">
+                Doğru Parçaya<br />
+                Hızlı ve Şeffaf Ulaşın
+              </h2>
+              <p class="request-card__description">
+                Talebinizi iletin, güvenilir tedarikçi ağımızdan en uygun fiyatları
+                bulup size WhatsApp üzerinden dönüş yapalım.
+              </p>
+
+              <div class="request-form" aria-label="Talep alanı">
+                <div class="request-form__header">
+                  <div>
+                    <h3 class="request-form__title">Yeni Parça Talebi</h3>
+                    <p class="request-form__subtitle">Bilgileriniz güvenli şekilde bize iletilir.</p>
+                  </div>
+                </div>
+
+                <div class="request-input">
+                  <textarea 
+                    class="request-input__field" 
+                    id="request-message"
+                    placeholder="Şasi numarası veya ihtiyaç duyduğunuz parçayı yazın"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <div class="request-form__actions">
+                  <button class="request-form__reset" type="button" id="request-reset">Sıfırla</button>
+
+                  <button
+                    class="request-form__button"
+                    type="button"
+                    id="request-submit"
+                  >
+                    <span class="request-form__button-copy">
+                      <span class="request-form__button-label">WhatsApp'tan Talep Oluştur</span>
+                    </span>
+                  </button>
+                </div>
+
+                <p class="request-form__message" id="request-form-message" aria-live="polite"></p>
+
+                <p class="request-form__note">
+                  Talebiniz birkaç adımda alınır ve en uygun teklifler size WhatsApp
+                  üzerinden iletilir.
+                </p>
+              </div>
+            </div>
+
+            <div class="request-card__media">
+              <div class="request-card__map-shell">
+                <div class="request-card__map-header">
+                  <div class="request-card__traffic" aria-hidden="true">
+                    <span class="request-card__traffic-dot request-card__traffic-dot--red"></span>
+                    <span class="request-card__traffic-dot request-card__traffic-dot--amber"></span>
+                    <span class="request-card__traffic-dot request-card__traffic-dot--green"></span>
+                  </div>
+                </div>
+
+                <p class="request-card__map-tag">
+                  <span class="request-card__map-dot" aria-hidden="true"></span>
+                  Canlı Tedarik Haritası
+                </p>
+                <div class="request-card__map">
+                  <div class="live-world-map" id="live-world-map" aria-label="Gece dünya haritası"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="confidence-section" aria-labelledby="confidence-title">
+        <div class="container confidence-section__container">
+          <h2 class="confidence-section__title" id="confidence-title" data-setting="confidence_title">Hâlâ Emin Değil Misiniz?</h2>
+          <p class="confidence-section__description" data-setting="confidence_description">
+            Bize doğrudan yazın, sorularınızı net şekilde yanıtlayalım.
+          </p>
+          <div class="confidence-section__actions">
+            <button class="confidence-section__button" id="ask-question-button" type="button" data-setting="confidence_button_text">
+              Soru Sorun
+            </button>
+            <button class="confidence-section__button confidence-section__button--secondary" id="toggle-qa-button" type="button" aria-expanded="false">
+              Merak Ettikleriniz
+            </button>
+          </div>
+          <div class="qa-feed" id="qa-feed" hidden>
+            <h3 class="qa-feed__title">Yanıtlanan Sorular</h3>
+            <div class="qa-grid" id="qa-grid"></div>
+            <div class="qa-detail" id="qa-detail" aria-live="polite">
+              <div class="qa-detail__inner">
+                <p class="qa-detail__hint">Bir soru seçin, cevabı burada görüntülensin.</p>
+                <h4 class="qa-detail__question" id="qa-detail-question"></h4>
+                <div class="qa-detail__answer" id="qa-detail-answer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-section__container">
+          <p class="faq-section__eyebrow">SIKÇA SORULAN SORULAR</p>
+          <h2 class="faq-section__title" id="faq-title">Merak ettikleriniz.</h2>
+
+          <div class="faq-list" id="faq-list">
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>ZENIX nedir ve nasıl çalışır?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>ZENIX, parça ihtiyacınızı alır, tedarik ağından en uygun seçenekleri bulur ve size net teklif sunar.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Şasi numaramı nereden bulabilirim?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Şasi numarası ruhsatta, ön cam altında veya şoför kapısı içi etiketinde yer alır.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Sipariş verdikten sonra ne kadar sürede dönüş alırım?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Çoğu talepte aynı gün içinde fiyat ve tedarik bilgisi dönüşü sağlanır.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Parçalar orijinal mi yoksa muadil mi?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Orijinal ve kaliteli muadil alternatifler açıkça belirtilir; seçim tamamen size birakilir.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Ödeme seçenekleriniz nelerdir?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Havale/EFT ve anlaşmalı ödeme kanallarıyla güvenli ödeme seçenekleri sunulur.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Kargo ücreti var mı? Teslimat süresi ne kadar?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Kargo koşulları tedarikçiye göre değişir; tahmini teslimat süresi teklifte açıkça paylaşılır.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Yanlış veya hasarlı parça gelirse ne olur?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Ürün doğrulama ve iade/değişim süreci hızlı şekilde başlatılır, sizi süreç boyunca bilgilendiririz.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Hangi araç markaları için parça bulabiliyorsunuz?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Yerel ve global bircok marka/model icin tedarik saglayabiliyoruz.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>ZENIX'in komisyon oranlari nedir?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Fiyatlandirma ve hizmet bedeli kalemleri teklif asamasinda seffaf olarak paylasilir.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__question" type="button" aria-expanded="false">
+                <span>Toplu sipariş veya kurumsal fiyat alabilir miyim?</span>
+                <span class="faq-item__icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Evet, kurumsal talepler için özel fiyatlandırma ve sürekli tedarik planı oluşturabiliyoruz.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-labelledby="site-footer-title">
+      <div class="container site-footer__container">
+        <div class="site-footer__brand">
+          <div class="site-footer__brand-top" id="site-footer-title">
+            <svg class="site-footer__logo-icon" viewBox="0 0 36 24" aria-hidden="true">
+              <path
+                d="M2 6.5 L14 6.5 L6 11.8 L14 17.2 M18.5 6.5 L27.5 17.2 M27.5 6.5 L18.5 17.2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="site-footer__title">ZENIX</span>
+          </div>
+          <p class="site-footer__text">
+            Otomotiv yedek parça süreçlerini daha hızlı, daha şeffaf ve daha güvenilir hale getiriyoruz.
+          </p>
+          <p class="site-footer__made">MADE WITH CARE</p>
+        </div>
+
+        <nav class="site-footer__column" aria-label="Ürün bağlantıları">
+          <h3>ÜRÜN</h3>
+          <a href="#hero">Ana Sayfa</a>
+          <a href="#how-it-works">Nasıl Çalışır</a>
+          <a href="#about">Hakkımızda</a>
+          <a href="#contact">Parça Talebi</a>
+          <a href="#faq">S.S.S.</a>
+        </nav>
+
+        <nav class="site-footer__column" aria-label="Kaynaklar">
+          <h3>KAYNAKLAR</h3>
+          <a href="#faq">Sıkça Sorulan Sorular</a>
+          <a href="#" data-legal-panel="preinfo">Ön Bilgilendirme</a>
+          <a href="#" data-legal-panel="support">Destek</a>
+          <a href="#" data-legal-panel="delivery">Teslimat Bilgisi</a>
+          <a href="#" data-legal-panel="returns">İade Süreci</a>
+          <a href="#" data-legal-panel="security">Güven Politikası</a>
+        </nav>
+
+        <nav class="site-footer__column" aria-label="Şirket">
+          <h3>ŞİRKET</h3>
+          <a href="#about">Hakkımızda</a>
+          <a href="#" data-legal-panel="company">Şirket Bilgileri</a>
+          <a href="#" data-legal-panel="contact">İletişim</a>
+          <a href="#" data-legal-panel="career">Kariyer</a>
+          <a href="#" data-legal-panel="privacy">Gizlilik Politikası</a>
+          <a href="#" data-legal-panel="terms">Kullanım Şartları</a>
+        </nav>
+
+        <nav class="site-footer__column" aria-label="İletişim">
+          <h3>İLETİŞİM</h3>
+          <a href="#" aria-disabled="true" data-link-setting="social_instagram">Instagram</a>
+          <a href="#" aria-disabled="true" data-link-setting="social_linkedin">LinkedIn</a>
+          <a href="#" aria-disabled="true" data-link-setting="social_x">X / Twitter</a>
+          <a href="#" aria-disabled="true" data-link-setting="social_youtube">YouTube</a>
+          <a href="#" aria-disabled="true" data-link-setting="social_tiktok">TikTok</a>
+        </nav>
+      </div>
+
+      <div class="container site-footer__bottom">
+        <p class="site-footer__copyright">© 2026 ZENIX. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+    <div class="cookie-banner" id="cookie-banner" aria-live="polite" hidden>
+      <div class="cookie-banner__inner">
+        <div class="cookie-banner__content">
+          <p class="cookie-banner__eyebrow">ÇEREZ BİLDİRİMİ</p>
+          <p class="cookie-banner__text">
+            ZENIX, sitenin güvenli ve düzgün çalışması için zorunlu çerezler kullanır.
+            Performans ve tercih çerezleri yalnızca onay vermeniz hâlinde devreye alınır.
+            Detaylar için
+            <button class="cookie-banner__link" type="button" id="open-cookie-policy">
+              Çerez Aydınlatma Metni
+            </button>
+            bölümünü inceleyebilirsiniz.
+          </p>
+        </div>
+        <div class="cookie-banner__actions">
+          <button class="cookie-banner__button cookie-banner__button--ghost" type="button" id="cookie-reject-all">
+            Hepsini Reddet
+          </button>
+          <button class="cookie-banner__button cookie-banner__button--ghost" type="button" id="cookie-manage">
+            Tercihleri Yönet
+          </button>
+          <button class="cookie-banner__button cookie-banner__button--solid" type="button" id="cookie-accept-all">
+            Hepsini Kabul Et
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="cookie-preferences" id="cookie-preferences" aria-hidden="true">
+      <div class="cookie-preferences__backdrop" data-close-cookie-preferences="true"></div>
+      <section class="cookie-preferences__panel" role="dialog" aria-modal="true" aria-labelledby="cookie-preferences-title">
+        <div class="cookie-preferences__header">
+          <div>
+            <p class="cookie-preferences__eyebrow">ÇEREZ TERCİHLERİ</p>
+            <h2 class="cookie-preferences__title" id="cookie-preferences-title">Tercihlerinizi yönetin</h2>
+          </div>
+          <button class="cookie-preferences__close" type="button" aria-label="Kapat" data-close-cookie-preferences="true">×</button>
+        </div>
+        <div class="cookie-preferences__body">
+          <article class="cookie-preferences__item">
+            <div>
+              <h3>Zorunlu Çerezler</h3>
+              <p>Sitenin güvenli çalışması, oturum sürekliliği ve temel sayfa işlevleri için gereklidir.</p>
+            </div>
+            <span class="cookie-preferences__badge">Her zaman aktif</span>
+          </article>
+          <label class="cookie-preferences__item cookie-preferences__item--toggle" for="cookie-functional">
+            <div>
+              <h3>Tercih Çerezleri</h3>
+              <p>Dil, görünüm ve seçimleriniz gibi deneyim tercihlerinizi hatırlamak için kullanılabilir.</p>
+            </div>
+            <span class="cookie-switch">
+              <input type="checkbox" id="cookie-functional" />
+              <span class="cookie-switch__track" aria-hidden="true"></span>
+            </span>
+          </label>
+          <label class="cookie-preferences__item cookie-preferences__item--toggle" for="cookie-analytics">
+            <div>
+              <h3>Performans ve Analitik Çerezleri</h3>
+              <p>Site kullanımını ölçmek ve deneyimi geliştirmek için toplu istatistik üretiminde kullanılabilir.</p>
+            </div>
+            <span class="cookie-switch">
+              <input type="checkbox" id="cookie-analytics" />
+              <span class="cookie-switch__track" aria-hidden="true"></span>
+            </span>
+          </label>
+        </div>
+        <div class="cookie-preferences__footer">
+          <button class="cookie-preferences__button cookie-preferences__button--ghost" type="button" id="cookie-save-rejected">
+            Sadece Zorunlu
+          </button>
+          <button class="cookie-preferences__button cookie-preferences__button--solid" type="button" id="cookie-save-preferences">
+            Tercihleri Kaydet
+          </button>
+        </div>
+      </section>
+    </div>
+    <div class="question-modal" id="question-modal" aria-hidden="true">
+      <div class="question-modal__backdrop" data-close-modal="true"></div>
+      <section class="question-modal__card" role="dialog" aria-modal="true" aria-labelledby="question-modal-title">
+        <button class="question-modal__close" type="button" aria-label="Kapat" data-close-modal="true">x</button>
+        <h2 class="question-modal__title" id="question-modal-title">Soru Gönder</h2>
+        <form class="question-form" id="question-form">
+          <label class="question-form__label" for="question-full-name">Ad Soyad</label>
+          <input class="question-form__input" id="question-full-name" name="fullName" type="text" required maxlength="120" />
+
+          <label class="question-form__label" for="question-content">Sorunuz</label>
+          <textarea class="question-form__textarea" id="question-content" name="question" required maxlength="1200"></textarea>
+
+          <button class="question-form__submit" type="submit">Gönder</button>
+          <p class="question-form__message" id="question-form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+    <div class="policy-modal" id="policy-modal" aria-hidden="true">
+      <div class="policy-overlay" data-close-policy="true"></div>
+      <section class="policy-panel" role="dialog" aria-modal="true" aria-labelledby="policy-modal-title">
+        <div class="policy-close">
+          <span class="policy-close-title" id="policy-modal-title">Bilgi</span>
+          <button class="policy-close-btn" type="button" aria-label="Kapat" data-close-policy="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+          </button>
+        </div>
+        <div class="policy-body" id="policy-modal-body"></div>
+      </section>
+    </div>
+    <template id="legal-template-privacy">
+      <div class="policy-date">Son güncelleme: 11 Nisan 2026</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Giriş</h3>
+        <span class="policy-badge-sm">KVKK UYUMLU</span>
+        <p>ZENIX olarak; web sitemiz, WhatsApp hattımız, teklif ve sipariş öncesi iletişim akışlarımız, teslimat koordinasyonu, destek süreçleri ve kariyer başvuruları kapsamında işlediğimiz kişisel verilere ilişkin sizi aydınlatmak isteriz.</p>
+        <p>Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu ile Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca; veri sorumlusunun kimliği, işleme amaçları, aktarım, toplama yöntemi, hukuki sebepler ve ilgili kişi hakları hakkında açık, sade ve okunabilir bilgilendirme sağlamak amacıyla hazırlanmıştır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Veri Sorumlusu ve İletişim</h3>
+        <ul>
+          <li><strong>Marka / faaliyet adı:</strong> ZENIX</li>
+          <li><strong>Veri sorumlusu:</strong> <span data-setting="company_legal_name">Yayına çıkmadan önce fatura kesen gerçek veya tüzel kişiye ait resmî ticaret unvanı burada açıkça yazılmalıdır.</span></li>
+          <li><strong>Merkez adresi:</strong> <span data-setting="company_address">Yayına çıkmadan önce eksiksiz merkez adresi eklenmelidir.</span></li>
+          <li><strong>MERSİS / vergi kimlik numarası:</strong> <span data-setting="company_tax_or_mersis">İşletme türüne göre zorunlu kimlik bilgisi yayına çıkmadan önce tamamlanmalıdır.</span></li>
+          <li><strong>KEP adresi:</strong> <span data-setting="company_kep_address">Tebligata elverişli kayıtlı elektronik posta adresi yayına çıkmadan önce eklenmelidir.</span></li>
+          <li><strong>E-posta:</strong> <span data-setting="contact_email">zenix@zenixparts.com</span></li>
+          <li><strong>Telefon:</strong> <span data-setting="contact_phone">+90 533 277 62 06</span></li>
+          <li><strong>Adres:</strong> <span data-setting="company_city">Ankara, Türkiye</span></li>
+        </ul>
+        <p>Not: Yukarıdaki resmî şirket bilgilerinin tamamı, fiilen satış yapan ve fatura düzenleyen işletmenin kayıtlarıyla birebir aynı olacak şekilde doldurulmalıdır. Bu alanlar tamamlanmadan yayına çıkılmaması gerekir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Toplanan Veriler</h3>
+        <ul>
+          <li>Ad, soyad, telefon numarası ve e-posta adresi</li>
+          <li>Şasi numarası, araç bilgileri, araç modeli ve talep edilen parça detayları</li>
+          <li>Teklif, sipariş ve teslimat sürecine ilişkin işlem kayıtları</li>
+          <li>İletişim içerikleri, destek talepleri ve memnuniyet/şikâyet kayıtları</li>
+          <li>Tarayıcı, cihaz, IP, ziyaret zamanı ve tercih kayıtları gibi temel teknik veriler</li>
+          <li>Kariyer başvurusunda iletilen özgeçmiş ve ek dosya içeriği</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">04</span> Toplanma Yöntemi</h3>
+        <ul>
+          <li>Web sitesi üzerindeki talep ve iletişim alanları</li>
+          <li>WhatsApp üzerinden başlatılan görüşmeler</li>
+          <li>Telefon veya e-posta ile doğrudan kurulan iletişim</li>
+          <li>Site güvenliği ve performansı için kullanılan teknik kayıtlar</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">05</span> İşlenme Amaçları</h3>
+        <ul>
+          <li>Parça taleplerinin alınması ve uygun tekliflerin hazırlanması</li>
+          <li>Araç uyumluluğunun kontrol edilmesi</li>
+          <li>Teslimat, iade, değişim ve sipariş sonrası sürecin koordine edilmesi</li>
+          <li>Müşteri desteği sunulması ve hizmet kalitesinin artırılması</li>
+          <li>Uyuşmazlık, talep ve şikâyet süreçlerinin yönetilmesi</li>
+          <li>Bilgi güvenliği, dolandırıcılık önleme ve kayıt saklama yükümlülüklerinin yerine getirilmesi</li>
+          <li>İş başvurularının değerlendirilmesi</li>
+          <li>Yasal yükümlülüklerin yerine getirilmesi</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">06</span> Hukuki Sebepler</h3>
+        <ul>
+          <li><strong>Sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması:</strong> Talep, teklif ve sipariş süreçlerinin yürütülmesi</li>
+          <li><strong>Hukuki yükümlülük:</strong> Muhasebe, vergi, tüketici ve uyuşmazlık süreçlerine uyum</li>
+          <li><strong>Meşru menfaat:</strong> Operasyon güvenliği, dolandırıcılık önleme ve hizmet kalitesi</li>
+          <li><strong>Açık rıza:</strong> Gerekli olduğu durumlarda pazarlama, ticari elektronik ileti veya zorunlu olmayan çerez tercihleri</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">07</span> Aktarım</h3>
+        <p>Verileriniz; teklifin hazırlanması, parçanın temini, teslimatın yürütülmesi, iletişim kurulması ve hukuki yükümlülüklerin yerine getirilmesi amaçlarıyla ihtiyaç duyulan tedarikçi, kargo/lojistik, yazılım, barındırma, mesajlaşma, mali müşavirlik ve yetkili kamu kurumlarıyla sınırlı olarak paylaşılabilir.</p>
+        <p>Açık rıza gerektiren durumlar hariç olmak üzere verileriniz başka amaçlarla üçüncü kişilere satılmaz veya kiralanmaz.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">08</span> Saklama ve Güvenlik</h3>
+        <p>Elektronik ticaret faaliyetinde bulunan işletmelerin elektronik işlem ve iletişim kayıtlarını ilgili mevzuat kapsamında saklama yükümlülükleri bulunabilir. Diğer kayıtlar ise ilgili mevzuatın gerektirdiği veya işleme amacı için gerekli olan süre boyunca tutulur ve süresi dolduğunda silme, yok etme veya anonim hale getirme yöntemlerinden uygun olanı uygulanır.</p>
+        <p>Yetkisiz erişimi önlemek için erişim kısıtları, sistem güvenliği, loglama, güncelleme ve iletişim güvenliği gibi makul teknik ve idari tedbirler uygulanır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">09</span> Çerezler ve Ticari İletiler</h3>
+        <p>Site işleyişi için gerekli teknik çerezler veya benzeri yerel depolama araçları kullanılabilir. Zorunlu olmayan tercih, performans, analitik veya pazarlama teknolojileri ancak gerekli ise ayrı tercih yönetimi ve uygun hukuki zeminle devreye alınmalıdır.</p>
+        <p>Ticari elektronik iletiler bakımından onay gerektiren durumlarda önceden onay alınması, ret hakkının kolay ve ücretsiz sunulması ve ret mekanizmasının mevzuata uygun biçimde işletilmesi esastır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">10</span> Haklarınız ve Başvuru</h3>
+        <p>KVKK kapsamındaki başvurularınızda; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, amacına uygun kullanılıp kullanılmadığını öğrenme, aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, silinmesini veya yok edilmesini isteme ve itiraz haklarınızı kullanabilirsiniz.</p>
+        <p>Başvurularınızı <strong>zenix@zenixparts.com</strong> adresine iletebilirsiniz. Başvurunun sağlıklı sonuçlanabilmesi için ad-soyad, iletişim bilgisi, konu özeti ve varsa destekleyici belgeleri eklemeniz önerilir.</p>
+        <p>İlgili kişi, veri sorumlusuna başvuru yolunu tükettikten sonra; başvurunun reddedilmesi, yetersiz bulunması veya süresinde cevap verilmemesi hâllerinde cevabı öğrendiği tarihten itibaren <strong>30 gün</strong> ve her hâlde başvuru tarihinden itibaren <strong>60 gün</strong> içinde Kurula şikâyette bulunabilir.</p>
+      </div>
+    </template>
+    <template id="legal-template-preinfo">
+      <div class="policy-date">Son güncelleme: 11 Nisan 2026</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Bu Metnin Amacı</h3>
+        <p>Bu ön bilgilendirme özeti, internet sitesi, telefon, WhatsApp veya benzeri uzaktan iletişim araçlarıyla kurulabilecek tüketici işlemleri bakımından mevzuatta zorunlu kılınan temel başlıkları tek yerde görünür kılmak amacıyla hazırlanmıştır.</p>
+        <p>ZENIX şu an ağırlıklı olarak teklif, tedarik koordinasyonu ve iletişim akışı sunmaktadır. Doğrudan çevrim içi ödeme veya sipariş onayı akışı yayına alınırsa, bu metnin ödeme öncesi adımda ayrıca gösterilmesi ve siparişe bağlanması gerekir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Sipariş Öncesi Açıkça Gösterilmesi Gerekenler</h3>
+        <ul>
+          <li>Mal veya hizmetin temel nitelikleri</li>
+          <li>Satıcı veya sağlayıcının adı/unvanı, açık adresi ve telefon numarası</li>
+          <li>Tüm vergiler dahil toplam bedel</li>
+          <li>Varsa nakliye, teslim ve benzeri ek masraflar</li>
+          <li>Cayma hakkının kapsamı, süresi, usulü ve varsa istisnaları</li>
+          <li>Hak arama yolları ile uyuşmazlık çözüm mercileri</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> ZENIX İçin Go-Live Kontrol Listesi</h3>
+        <ul>
+          <li><strong>Resmî unvan:</strong> Fatura kesen işletmenin tam ticaret unvanı açıkça yazılmalıdır.</li>
+          <li><strong>MERSİS / vergi numarası:</strong> İşletme türüne uygun zorunlu kimlik bilgisi görünür olmalıdır.</li>
+          <li><strong>KEP adresi:</strong> Tebligata elverişli KEP adresi yayımlanmalıdır.</li>
+          <li><strong>Merkez adresi:</strong> Kısaltmasız ve doğrulanabilir merkez adresi gösterilmelidir.</li>
+          <li><strong>Toplam bedel:</strong> Ürün bedeli, hizmet bedeli ve kargo/ek masraf ayrımı sipariş öncesi netleştirilmelidir.</li>
+          <li><strong>Ödeme yükümlülüğü uyarısı:</strong> Sipariş onay düğmesi öncesinde ödemenin sonuç doğurduğu açıkça belirtilmelidir.</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">04</span> Mesafeli Sözleşme ve Cayma</h3>
+        <p>Mesafeli satış kuruluyorsa tüketici, kural olarak 14 gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart üstlenmeksizin cayma hakkına sahiptir. İstisna kapsamına giren ürün veya hizmetler varsa bunlar ödeme öncesi açıkça belirtilmelidir.</p>
+        <p>Ön bilgilendirme eksik veya yanıltıcı ise bazı yükümlülükler satıcı aleyhine sonuç doğurabilir. Bu nedenle siparişe esas tüm bilgi başlıklarının aynı anda, açık ve sade şekilde görünür olması gerekir.</p>
+      </div>
+    </template>
+    <template id="legal-template-terms">
+      <div class="policy-date">Son güncelleme: 11 Nisan 2026</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Kapsam</h3>
+        <p>Bu kullanım şartları, ZENIX web sitesini ziyaret eden ve hizmetlerimizden yararlanan tüm kullanıcılar için geçerlidir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Hizmetin Niteliği</h3>
+        <p>ZENIX, otomotiv yedek parça taleplerinin alınması, uygun tedarik seçeneklerinin değerlendirilmesi ve kullanıcıya teklif sunulması sürecinde aracılık ve iletişim desteği sağlar.</p>
+        <p>Site üzerindeki içerikler, aksi açıkça belirtilmedikçe bilgi ve teklif öncesi yönlendirme niteliğindedir. Doğrudan ödeme veya sipariş onayı alınan bir akış devreye girerse, mesafeli sözleşmeye ilişkin ön bilgilendirme, sipariş özeti ve cayma bilgilendirmesi ayrıca görünür şekilde sunulmalıdır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Kullanıcı Sorumluluğu</h3>
+        <ul>
+          <li>Paylaşılan araç ve iletişim bilgilerinin doğru olması gerekir.</li>
+          <li>Yanıltıcı, eksik veya hukuka aykırı içerik gönderilmemelidir.</li>
+          <li>Sunulan tekliflerin stok ve tedarik koşullarına bağlı olarak değişebileceği kabul edilir.</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">04</span> Bilgi Verme ve İletişim</h3>
+        <p>Elektronik ticarette hizmet sağlayıcıların kendilerine ait ortamda doğrudan ulaşılabilecek şekilde iletişim bilgilerini, tebligata elverişli KEP adresini ve işletmenin niteliğine göre MERSİS veya vergi kimlik numarasını yayımlaması gerekir. Fatura düzenleyen işletmeye ait resmî bilgiler siparişe esas alanlarda eksiksiz gösterilmelidir.</p>
+        <p>Bu nedenle yayına çıkmadan önce “Şirket Bilgileri” alanında ticaret unvanı, merkez adresi, MERSİS/vergi numarası ve KEP bilgilerinin tamamlanması zorunludur.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">05</span> Fikri Haklar</h3>
+        <p>Sitedeki içerik, marka öğeleri, metinler ve görsel düzen ZENIX’e aittir. İzinsiz kopyalanamaz veya ticari amaçla kullanılamaz.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">06</span> Uyuşmazlık ve Tüketici Hakları</h3>
+        <p>Tüketici işlemi doğuran durumlarda, uyuşmazlık konusu tutar yasal parasal sınır içinde kalıyorsa tüketici hakem heyetine başvuru mümkündür. <strong>1 Ocak 2026 itibarıyla bu sınır 186.000 TL altındaki uyuşmazlıklar için uygulanmaktadır.</strong></p>
+        <p>Mesafeli sözleşme kurulması halinde tüketiciye; ürün/hizmetin temel nitelikleri, satıcı/sağlayıcı bilgileri, toplam bedel, ek masraflar, cayma hakkı ve hak arama yolları sözleşme kurulmadan önce açık, sade ve okunabilir biçimde sunulmalıdır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">07</span> İletişim</h3>
+        <p>Şartlara ilişkin sorularınız için <strong data-setting="contact_email">zenix@zenixparts.com</strong> adresine yazabilir veya <strong data-setting="contact_phone">+90 533 277 62 06</strong> numarasından bize ulaşabilirsiniz.</p>
+      </div>
+    </template>
+    <template id="legal-template-company">
+      <div class="policy-date">Yayına çıkmadan önce tamamlanmalıdır</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Zorunlu Şirket Bilgileri</h3>
+        <p>Aşağıdaki bilgiler, sitede görünür ve doğrulanabilir şekilde yayımlanmalıdır. Bu alanlar örnek değil, go-live öncesi tamamlanması gereken zorunlu alanlardır.</p>
+        <ul>
+          <li><strong>Resmî ticaret unvanı:</strong> <span data-setting="company_legal_name">[EKLENECEK]</span></li>
+          <li><strong>İşletme türü:</strong> <span data-setting="company_type">[Şahıs / Limited / Anonim vb. EKLENECEK]</span></li>
+          <li><strong>MERSİS numarası veya vergi kimlik numarası:</strong> <span data-setting="company_tax_or_mersis">[EKLENECEK]</span></li>
+          <li><strong>Tebligata elverişli KEP adresi:</strong> <span data-setting="company_kep_address">[EKLENECEK]</span></li>
+          <li><strong>Merkez adresi:</strong> <span data-setting="company_address">[EKLENECEK]</span></li>
+          <li><strong>E-posta:</strong> <span data-setting="contact_email">zenix@zenixparts.com</span></li>
+          <li><strong>Telefon:</strong> <span data-setting="contact_phone">+90 533 277 62 06</span></li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> ETBİS ve Kayıt Durumu</h3>
+        <p>Kendine ait elektronik ticaret ortamında faaliyet gösteren hizmet sağlayıcıların faaliyete başlamadan önce ETBİS’e kayıt olması gerekir. Kayıt ve bildirim yükümlülüğünün işletmenin fiilî iş modeline göre ayrıca doğrulanması önerilir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Neden Bu Bilgiler Önemli</h3>
+        <p>Bu bilgiler, tüketicinin satıcıya ulaşabilmesi, resmî kimliği doğrulayabilmesi, uyuşmazlık halinde muhatabı belirleyebilmesi ve kayıt dışılığın önlenmesi açısından kritik önemdedir.</p>
+      </div>
+    </template>
+    <template id="legal-template-support">
+      <div class="policy-date">Destek Bilgisi</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Destek Kanalları</h3>
+        <ul>
+          <li><strong>E-posta:</strong> <span data-setting="contact_email">zenix@zenixparts.com</span></li>
+          <li><strong>Telefon / WhatsApp:</strong> <span data-setting="contact_whatsapp">+90 533 277 62 06</span></li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Kapsam</h3>
+        <ul>
+          <li>Parça uygunluğu ve teklif süreci</li>
+          <li>Sipariş durumu ve teslimat takibi</li>
+          <li>İade, değişim ve hasar bildirimleri</li>
+          <li>Kurumsal ve toplu talepler</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Cevap ve Kayıt</h3>
+        <p>Destek sürecinde iletilen soru, şikâyet ve belge kayıt altına alınabilir. Bu kayıtlar yalnızca talebin sonuçlandırılması, kalite takibi ve mevzuat yükümlülükleri amacıyla kullanılır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">04</span> Resmî Başvuru ve Şikâyet</h3>
+        <p>Öncelikle destek kanalımız üzerinden çözüm aranmasını öneririz. Tüketici uyuşmazlıklarında yasal başvuru yolları ayrıca saklıdır.</p>
+      </div>
+    </template>
+    <template id="legal-template-delivery">
+      <div class="policy-date">Teslimat Bilgisi</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Genel Süreç</h3>
+        <p>Teslimat süresi, talep edilen parçanın stok durumu, tedarikçi lokasyonu ve kargo planına göre teklif aşamasında netleştirilir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Mesafeli Satışlarda Yasal Çerçeve</h3>
+        <p>İnternet veya telefon üzerinden kurulan bir tüketici sözleşmesinde, ayrıca daha uzun bir süre taahhüt edilmemişse teslim yükümlülüğünün kural olarak <strong>en geç 30 gün</strong> içinde yerine getirilmesi gerekir.</p>
+        <p>Edimin imkânsızlaşması hâlinde bu durumun gecikmeksizin ve en geç öğrenilmesinden itibaren <strong>3 gün</strong> içinde bildirilmesi; tahsil edilen ödemelerin ise bildirimden itibaren <strong>14 gün</strong> içinde iade edilmesi gerekir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Bilgilendirme</h3>
+        <p>Siparişiniz onaylandıktan sonra süreç telefon veya e-posta üzerinden size aktarılır. Gerekli durumlarda <strong data-setting="contact_phone">+90 533 277 62 06</strong> numarası üzerinden doğrudan bilgi verilir.</p>
+      </div>
+    </template>
+    <template id="legal-template-returns">
+      <div class="policy-date">İade Süreci</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Başvuru</h3>
+        <p>Yanlış, hasarlı veya uyumsuz ürün durumunda bize mümkün olan en kısa sürede <strong data-setting="contact_email">zenix@zenixparts.com</strong> veya <strong data-setting="contact_phone">+90 533 277 62 06</strong> üzerinden ulaşabilirsiniz.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Cayma Hakkı</h3>
+        <p>Mesafeli tüketici sözleşmesi kurulmuşsa tüketici, kural olarak ve <strong>kanundaki istisnalar saklı kalmak üzere</strong>, <strong>14 gün</strong> içinde herhangi bir gerekçe göstermeksizin cayma hakkını kullanabilir. Bildirim yazılı olarak veya e-posta gibi kalıcı veri saklayıcısı üzerinden yapılmalıdır.</p>
+        <p>Cayma bildiriminin satıcıya ulaşmasından itibaren bedelin <strong>14 gün</strong> içinde iade edilmesi; tüketicinin ise bildirim tarihinden itibaren malı <strong>10 gün</strong> içinde geri göndermesi beklenir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> İnceleme</h3>
+        <p>İade veya değişim talepleri ürün durumu, teslim koşulları, istisna hükümleri ve tedarikçi şartları doğrultusunda incelenir. Sonraki adımlar size açık şekilde aktarılır.</p>
+      </div>
+    </template>
+    <template id="legal-template-security">
+      <div class="policy-date">Güven Politikası</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Veri ve Süreç Güvenliği</h3>
+        <p>Talepleriniz yalnızca hizmetin yürütülmesi için işlenir. Erişim yetkileri sınırlandırılır, iletişim süreçleri kayıt altına alınır ve operasyon güvenliği düzenli olarak gözden geçirilir.</p>
+        <p>Elektronik ticaret işlemlerine ilişkin kayıtların mevzuat gereği saklanması, yetkisiz erişimin önlenmesi ve kişisel verilere hukuka aykırı erişim veya işlem yapılmaması için gerekli teknik ve idari tedbirlerin alınması esastır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Güvenlik Bildirimi</h3>
+        <p>Herhangi bir güvenlik zafiyeti, hesap ele geçirme şüphesi, yanlış yönlendirme veya veri ihlali ihtimali fark edilirse gecikmeksizin bize bildirim yapılması önerilir. Gerekli olması hâlinde olay kayıtları incelenir ve ilgili mevzuat çerçevesinde ek aksiyon alınır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> İletişim</h3>
+        <p>Güvenlikle ilgili sorularınızı <strong data-setting="contact_email">zenix@zenixparts.com</strong> adresine iletebilir veya <strong data-setting="contact_phone">+90 533 277 62 06</strong> numarasından bize ulaşabilirsiniz.</p>
+      </div>
+    </template>
+    <template id="legal-template-contact">
+      <div class="policy-date">İletişim</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Ulaşım</h3>
+        <ul>
+          <li><strong>E-posta:</strong> <span data-setting="contact_email">zenix@zenixparts.com</span></li>
+          <li><strong>Telefon:</strong> <span data-setting="contact_phone">+90 533 277 62 06</span></li>
+          <li><strong>WhatsApp:</strong> <span data-setting="contact_whatsapp">+90 533 277 62 06</span></li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Resmî Bildirim Bilgileri</h3>
+        <p>İnternet sitesinde tebligata elverişli KEP adresi, resmî ticaret unvanı, merkez adresi ve işletme türüne göre MERSİS veya vergi kimlik numarasının ayrıca görünür şekilde yayımlanması gerekir. Bu bilgiler “Şirket Bilgileri” alanında yayına çıkmadan önce tamamlanmalıdır.</p>
+      </div>
+    </template>
+    <template id="legal-template-career">
+      <div class="policy-date">Kariyer</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Başvurular</h3>
+        <p>ZENIX bünyesinde değerlendirilmek üzere özgeçmiş ve kısa tanıtım metninizi <strong>zenix@zenixparts.com</strong> adresine iletebilirsiniz.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Aday Veri Gizliliği</h3>
+        <p>Kariyer başvurularında paylaşılan özgeçmiş ve ek bilgiler yalnızca aday değerlendirme amacıyla işlenir. Başvuru süreciyle ilgisiz kişisel veri paylaşılmaması tavsiye edilir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> İletişim</h3>
+        <p>Kariyer süreçleri hakkında bilgi almak için <strong data-setting="contact_phone">+90 533 277 62 06</strong> numarasını da kullanabilirsiniz.</p>
+      </div>
+    </template>
+    <template id="legal-template-cookies">
+      <div class="policy-date">Son güncelleme: 11 Nisan 2026</div>
+      <div class="ps">
+        <h3><span class="pn">01</span> Amaç</h3>
+        <p>Bu çerez aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ve Kişisel Verileri Koruma Kurumu tarafından yayımlanan çerez rehberleri dikkate alınarak hazırlanmıştır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">02</span> Kullandığımız Çerez Grupları</h3>
+        <ul>
+          <li><strong>Zorunlu çerezler:</strong> Güvenlik, oturum sürekliliği ve temel site işlevleri için gereklidir.</li>
+          <li><strong>Tercih çerezleri:</strong> Seçimlerinizin hatırlanması için, yalnızca onay vermeniz hâlinde kullanılabilir.</li>
+          <li><strong>Performans ve analitik çerezleri:</strong> Site kullanımına ilişkin toplu analiz üretmek amacıyla, yalnızca onay vermeniz hâlinde kullanılabilir.</li>
+        </ul>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">03</span> Hukuki Dayanak</h3>
+        <p>Zorunlu çerezler, talep ettiğiniz bilgi toplumu hizmetinin sunulabilmesi için kullanılmaktadır. Zorunlu olmayan tercih, performans ve analitik çerezleri ise yalnızca açık rızanız bulunduğunda devreye alınır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">04</span> Aydınlatma ve Açık Rıza</h3>
+        <p>Çerez kullanımı bakımından aydınlatma yükümlülüğü ile açık rıza birbirinden ayrı süreçlerdir. Zorunlu olmayan çerez kategorileri için rıza aktif bir olumlayıcı işlemle alınmalı; yalnızca siteyi kullanmaya devam etmek rıza olarak yorumlanmamalıdır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">05</span> Tercih Yönetimi</h3>
+        <p>Çerez tercihlerinizi banner üzerindeki yönetim alanından her zaman güncelleyebilirsiniz. “Hepsini Kabul Et”, “Hepsini Reddet” ve “Tercihleri Yönet” seçenekleri eşit düzeyde erişilebilir şekilde sunulmaktadır.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">06</span> Mevcut Kurulum Notu</h3>
+        <p>Mevcut kurulumda yalnızca sitenin temel çalışmasına yönelik gerekli teknik kayıtlar/tercihler kullanılmalı; analitik veya reklam çerezleri devreye alınacaksa bu metin ve tercih paneli o araçlara göre ayrıca güncellenmelidir.</p>
+      </div>
+      <div class="ps">
+        <h3><span class="pn">07</span> İletişim</h3>
+        <p>Çerezler ve kişisel verilerinizle ilgili sorularınız için <strong data-setting="contact_email">zenix@zenixparts.com</strong> adresine yazabilir veya <strong data-setting="contact_phone">+90 533 277 62 06</strong> numarasından bize ulaşabilirsiniz.</p>
+      </div>
+    </template>
+    <script src="map.js" defer></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
